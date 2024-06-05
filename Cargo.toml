@@ -1,0 +1,8 @@
+[package]
+name = "ipscan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bpaf = {version = "0.9.12",features = ["derive","bright-color"]}
+tokio = {version = "1.38.0",features = ["full"]}
